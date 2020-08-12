@@ -1,0 +1,32 @@
+/*font-family: 'Montserrat', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background: url(../images/falls.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+label{
+	font-size: 20px;
+	color: #fff;
+}
+h1{
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.form-control{
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	background: rgba(0, 0, 0, 0.6);
+}
+.form-control-file{
+	color: #fff;
+}
